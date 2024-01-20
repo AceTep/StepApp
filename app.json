@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "StepCounter",
-    "slug": "StepCounter",
+    "slug": "stepapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7a3afb78-0b00-44ae-a789-14d3a5641466"
+      }
+    },
+    "owner": "acet3p"
   }
 }
